@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    height: 100vh;
+    display: flex;
+}
+
+.login-wrapper-left {
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.dots1{
+    margin-bottom: 29px;
+    margin-left: 28px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.dots2{
+    width: 296px;
+    margin-top: 31px;
+    margin-right: 27px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.form-wrapper {
+    margin-top: -156px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text h1 {
+    
+    margin: 0;
+    margin-top: 77px;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.form-text h1 span {
+    color: #AF1E21;
+    font-weight: 700;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+
+
+form {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.password{
+    margin-top: 22px;
+}
+
+input {
+    width: 603px;
+    height: 63px;
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #e8f0fe;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.25) inset;
+    color: rgba(89, 90, 92, 0.70);
+    font-family: 'Inter';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+
+    margin-top: 36px;
+    background-color: #CC0606;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    color: #F5F5F5;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 0.25s;
+}
+
+button:hover{
+    filter: drop-shadow(0vw 0.1vw 0.7vw #CC0606);
+    
+}
+
+.login-wrapper-right h2{
+    color: #FFF;
+    font-family: 'Lexend';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login-wrapper-right h2 span{
+    color: #FFD700;
+}
+
+.login-wrapper-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #AF1E21;
+    width: 50%;
+}
+
+.image-slide-container{
+    width: 758.043px;
+    overflow: hidden;
+}
+
+#slide{
+    display: flex;
+    transition: 0.3s;
+}
+
+.s1{
+    transform: translateX(0%);
+}
+
+.s2{
+    transform: translateX(-100%);
+}
